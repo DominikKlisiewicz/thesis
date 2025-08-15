@@ -1,3 +1,16 @@
+# Core ML / DL
+torch==2.8.0+cpu
+torchvision==0.23.0+cpu
+torchaudio==2.8.0+cpu
+
+# Data processing
 numpy==2.3.2
+
+# Optional utilities
 tqdm==4.67.1
-# CPU-only PyTorch installed separately in Dockerfile, no need to include here
+
+# Jupyter for interactive work (optional)
+jupyterlab==4.4.5
+
+# For saving/loading models or general serialization
+pyyaml==6.0.2
